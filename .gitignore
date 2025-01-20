@@ -1,68 +1,49 @@
-ompiled class files
-*.class
+# Eclipse-specific files
+.metadata/
+.classpath
+.project
+.settings/
 
-# Log files
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# Maven
+# Build directories
+bin/
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-
-# Gradle
-.gradle/
-build/
-!gradle-wrapper.jar
-.gradle/cache/
-.gradle/logs/
-.gradle/notifications/
-.gradle/vcs-1/
-
-# IntelliJ IDEA
-.idea/
-*.iml
-*.ipr
-*.iws
 out/
 
-# Eclipse
-.project
-.classpath
-.settings/
-bin/
+# Maven dependencies
+.mvn/
+**/mvn*
 
-# VS Code
-.vscode/
+# Gradle files
+.gradle/
+build/
 
-# Operating System files
+# IntelliJ IDEA project files (if the project is shared with IntelliJ users)
+.idea/
+*.iml
+
+# Logs
+*.log
+log/
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
+# Java compiled files
+*.class
+
 # Temporary files
 *.tmp
-*.swp
-*.swo
-*.bak
+*.temp
 
-# Debugging files
-hs_err_pid*
-replay_pid*.log
+# Appium-specific
+*.apk
+*.ipa
+node_modules/
+reports/
+logs/
 
-# Other IDE specific files
-*.orig
-
+# Test output
+test-output/
+surefire-reports/
 
