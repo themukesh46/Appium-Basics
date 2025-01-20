@@ -43,6 +43,9 @@ node_modules/
 reports/
 logs/
 
+# Exception for a specific APK file
+!src/test/resource/ApiDemos-debug.apk
+
 # Test output
 test-output/
 surefire-reports/
