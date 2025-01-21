@@ -2,15 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-20T15:15:42 IST" name="Default suite" finished-at="2025-01-20T15:15:55 IST" duration-ms="12579">
+  <suite started-at="2025-01-21T11:24:16 IST" name="Default suite" finished-at="2025-01-21T11:24:33 IST" duration-ms="16969">
     <groups>
     </groups>
-    <test started-at="2025-01-20T15:15:42 IST" name="Default test" finished-at="2025-01-20T15:15:55 IST" duration-ms="12579">
+    <test started-at="2025-01-21T11:24:16 IST" name="Default test" finished-at="2025-01-21T11:24:33 IST" duration-ms="16969">
       <class name="com.test.Appium_learn.AppiumBasics">
-        <test-method signature="appiumBasics()[pri:0, instance:com.test.Appium_learn.AppiumBasics@5677323c]" started-at="2025-01-20T15:15:42 IST" name="appiumBasics" finished-at="2025-01-20T15:15:55 IST" duration-ms="12506" status="PASS">
+        <test-method is-config="true" signature="config()[pri:0, instance:com.test.Appium_learn.AppiumBasics@793f29ff]" started-at="2025-01-21T11:24:16 IST" name="config" finished-at="2025-01-21T11:24:25 IST" duration-ms="8289" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- appiumBasics -->
+        </test-method> <!-- config -->
+        <test-method signature="wifiSettingsName()[pri:0, instance:com.test.Appium_learn.AppiumBasics@793f29ff]" started-at="2025-01-21T11:24:25 IST" name="wifiSettingsName" finished-at="2025-01-21T11:24:32 IST" duration-ms="7802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wifiSettingsName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.Appium_learn.AppiumBasics@793f29ff]" started-at="2025-01-21T11:24:32 IST" name="tearDown" finished-at="2025-01-21T11:24:33 IST" duration-ms="796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.test.Appium_learn.AppiumBasics -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
