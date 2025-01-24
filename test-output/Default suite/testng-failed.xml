@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.Appium_learn.AppiumBasics">
+      <class name="com.test.Appium_learn.LongPress">
         <methods>
           <include name="config"/>
-          <include name="wifiSettingsName"/>
+          <include name="longPress"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.test.Appium_learn.AppiumBasics -->
+      </class> <!-- com.test.Appium_learn.LongPress -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
